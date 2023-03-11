@@ -1,1 +1,2 @@
-web: gunicorn devserch.wgsi --log-file -
+web: gunicorn devserch.wsgi --log-file - 
+
